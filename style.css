@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
         bottom: 3%;
         left: 15%;
         right: 15%;
-        z-index: -1;
+        transform: skewY(7deg);
     }
     
 }
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0%;
     right: 0%;
     z-index: -1;
-    transform: skewY(7deg);
+    transform: skewY(0deg);
     box-shadow: 0 0 20px -18px #242807;
     box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
     transition: transform 0.2s linear;
@@ -79,6 +79,9 @@ h1, h2, h3, h4, h5, h6 {
         margin: 12% 0;
         padding: 0 12%;
         text-align: center;
+    }
+    .secondary {
+        margin: 0;
     }
 }
 
