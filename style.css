@@ -8,11 +8,14 @@ Template: twentyfifteen
 Version: 0.0.2
 */
 
-
+/* Variables */
 :root {
     --theme-background-color: #f2f2f2;
     --theme-content-background-color: #fff;
-    --theme-content-background-image: linear;
+    --theme-light-green: #697128;
+    --theme-dark-green: #242807;
+    --theme-light-brown: #bfae7a;
+    --theme-dark-brown: #59342c;
 }
 
 /* Basic Laoyut colors */
@@ -25,21 +28,46 @@ body::before {
     box-shadow: none;
 }
 
+@media screen and (min-width: 59.6875em) {
+    #sidebar {
+        position: sticky;
+        top: 100px;
+    }
+}
 #sidebar {
     background-color: transparent;
-    position: sticky;
-    bottom: auto;
-    top: 100px;
 }
 #sidebar:after {
     content: "";
+    position: absolute;
     background-color:#fff;
     background-color: var(--theme-content-background-color, #fff);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: 80%;
+    width: 70%;
+    top: 21%;
+    bottom: 3%;
+    left: 15%;
+    right: 15%;
+    z-index: -1;
+    transform: skewY(7deg);
+    box-shadow: 0 0 20px -18px #242807;
+    box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
+}
+
+@media screen and (min-width: 59.6875em) {
+    .site-header {
+        margin: 12% 0;
+        padding: 0 12%;
+    }
+}
+
+.main-navigation li {
+    border-top: none;
+}
+
+@media screen and (min-width: 38.75em) {
+    .hentry, .page-header, .page-content {
+        box-shadow: 0 0 20px -18px #242807;
+        box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
+    }
 }
