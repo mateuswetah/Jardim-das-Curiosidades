@@ -18,10 +18,13 @@ Version: 0.0.2
     --theme-dark-brown: #59342c;
 }
 
-/* Basic Laoyut colors */
+/* Basic Laoyut */
 body {
     background-color: #f2f2f2;
     background-color: var(--theme-background-color, #f2f2f2);
+}
+body, button, input, select, textarea {
+    font-family: 'Poppins', sans-serif;
 }
 body::before {
     background-color: transparent;
@@ -32,6 +35,7 @@ body::before {
     #sidebar {
         position: sticky;
         top: 100px;
+        transition: top linear 0.3s;
     }
 }
 #sidebar {
@@ -61,8 +65,10 @@ body::before {
     }
 }
 
+.main-navigation ul,
 .main-navigation li {
     border-top: none;
+    border-bottom: none;
 }
 
 @media screen and (min-width: 38.75em) {
