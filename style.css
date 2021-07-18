@@ -7,3 +7,9 @@ Author URI: https://mateuswetah.com.br
 Template: twentyfifteen
 Version: 0.0.1
 */
+
+
+/* Basic Laoyut colors */
+body::before {
+    background-color: transparent;
+}
