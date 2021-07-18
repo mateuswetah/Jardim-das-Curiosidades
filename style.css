@@ -9,7 +9,37 @@ Version: 0.0.1
 */
 
 
+:root {
+    --theme-background-color: #f2f2f2;
+    --theme-content-background-color: #fff;
+    --theme-content-background-image: linear;
+}
+
 /* Basic Laoyut colors */
+body {
+    background-color: #f2f2f2;
+    background-color: var(--theme-background-color, #f2f2f2);
+}
 body::before {
     background-color: transparent;
+    box-shadow: none;
+}
+
+#sidebar {
+    background-color: transparent;
+    position: sticky;
+    bottom: auto;
+    top: 100px;
+}
+#sidebar:after {
+    content: "";
+    background-color:#fff;
+    background-color: var(--theme-content-background-color, #fff);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
