@@ -30,6 +30,11 @@ body::before {
     background-color: transparent;
     box-shadow: none;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    color: #242807;
+    color: var(--theme-dark-green, #242807);
+}
 
 @media screen and (min-width: 59.6875em) {
     #sidebar {
@@ -65,6 +70,11 @@ body::before {
     }
 }
 
+.main-navigation {
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding: 0 12px;
+}
 .main-navigation ul,
 .main-navigation li {
     border-top: none;
