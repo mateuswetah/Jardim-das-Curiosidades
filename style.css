@@ -80,9 +80,6 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0 12%;
         text-align: center;
     }
-    .secondary {
-        margin: 0;
-    }
 }
 
 .main-navigation {
@@ -100,5 +97,8 @@ h1, h2, h3, h4, h5, h6 {
     .hentry, .page-header, .page-content {
         box-shadow: 0 0 20px -18px #242807;
         box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
+    }
+    .secondary {
+        margin: 0;
     }
 }
