@@ -5,7 +5,7 @@ if (! defined('WP_DEBUG')) {
 }
 
 /** Child Theme version */
-const JARDIM_DAS_CURIOSIDADES_VERSION = '0.0.2';
+const JARDIM_DAS_CURIOSIDADES_VERSION = '0.0.3';
 
 /**
  * Load the parent style.css file
@@ -14,7 +14,7 @@ const JARDIM_DAS_CURIOSIDADES_VERSION = '0.0.2';
  */
 function jardim_das_curiosidades_enqueue_styles() {
 	// Enqueue parent styles
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css', [], JARDIM_DAS_CURIOSIDADES_VERSION );
+	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 
 	// Load the stylesheet
 	wp_enqueue_style( 'jardim-das-curiosidades-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'), JARDIM_DAS_CURIOSIDADES_VERSION );
