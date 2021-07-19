@@ -85,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The menu inside the sidebar  */
 .main-navigation {
-    font-size: 1.75rem;
     font-weight: 500;
     padding: 0 12px;
 }
@@ -93,6 +92,16 @@ h1, h2, h3, h4, h5, h6 {
 .main-navigation li {
     border-top: none;
     border-bottom: none;
+}
+@media screen and (min-width: 77.5em) {
+    .main-navigation {
+        font-size: 1.75rem;
+    }
+}
+@media screen and (min-width: 68.75em) {
+    .main-navigation {
+        font-size: 1.62rem;
+    }
 }
 @media screen and (min-width: 59.6875em) {
     .main-navigation {
