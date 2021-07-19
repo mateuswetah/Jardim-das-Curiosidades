@@ -36,22 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--theme-dark-green, #242807);
 }
 
-@media screen and (min-width: 59.6875em) {
-    #sidebar {
-        position: sticky;
-        top: 100px;
-        transition: top linear 0.3s;
-    }
-    #sidebar:after {
-        height: 80%;
-        width: 70%;
-        top: 21%;
-        bottom: 3%;
-        left: 15%;
-        right: 15%;
-        transform: skewY(7deg);
-    }
-}
+/* Sidebar navigation menu */
 #sidebar {
     background-color: transparent;
 }
@@ -74,13 +59,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 59.6875em) {
+    #sidebar {
+        position: sticky;
+        top: 100px;
+        transition: top linear 0.3s;
+    }
+    #sidebar:after {
+        height: 80%;
+        width: 70%;
+        top: 21%;
+        bottom: 3%;
+        left: 15%;
+        right: 15%;
+        transform: skewY(7deg);
+    }
     .site-header {
         margin: 12% 0;
         padding: 0 12%;
         text-align: center;
     }
 }
-
 .main-navigation {
     font-size: 1.75rem;
     font-weight: 500;
@@ -92,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none;
 }
 
+/* Pages and Posts overall title and header */
 @media screen and (min-width: 38.75em) {
     .hentry, .page-header, .page-content {
         box-shadow: 0 0 20px -18px #242807;
@@ -101,7 +100,6 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
     }
 }
-
 @media screen and (min-width: 59.6875em) {
     .hentry::before {
         content: "";
@@ -116,7 +114,6 @@ h1, h2, h3, h4, h5, h6 {
         left: 0;
         right: 0;
         transform: skewY(-4deg);
-        z-index: -1;
         box-shadow:0 -12px 22px -26px #242807;
         box-shadow: 0 -12px 22px -26px var(--theme-dark-green, #242807)
     }
