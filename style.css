@@ -70,14 +70,14 @@ h1, h2, h3, h4, h5, h6 {
     #sidebar:after {
         height: 80%;
         width: 70%;
-        top: 21%;
+        top: 100px;
         bottom: 3%;
         left: 15%;
         right: 15%;
         transform: skewY(7deg);
     }
     .site-header {
-        margin: 24% 0 12% 0;
+        margin: 16% 0 12% 0;
         padding: 0 12%;
         text-align: center;
     }
@@ -93,9 +93,9 @@ h1, h2, h3, h4, h5, h6 {
     border-top: none;
     border-bottom: none;
 }
-@media screen and (min-width: 77.5em) {
+@media screen and (min-width: 59.6875em) {
     .main-navigation {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
 }
 @media screen and (min-width: 68.75em) {
@@ -103,9 +103,9 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.62rem;
     }
 }
-@media screen and (min-width: 59.6875em) {
+@media screen and (min-width: 77.5em) {
     .main-navigation {
-        font-size: 1.4rem;
+        font-size: 1.75rem;
     }
 }
 
@@ -155,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .site-main {
         margin-top: 10%;
+        margin-top: 10vh;
     }
 }
 
