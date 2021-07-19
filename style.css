@@ -117,7 +117,12 @@ h1, h2, h3, h4, h5, h6 {
         right: 0;
         transform: skewY(-4deg);
         z-index: -1;
-        box-shadow: 0 0 20px -18px #242807;
-        box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
+        box-shadow:0 -12px 22px -26px #242807;
+        box-shadow: 0 -12px 22px -26px var(--theme-dark-green, #242807)
+    }
+    .entry-header {
+        margin-top: -14%;
+        z-index: 2;
+        position: relative;
     }
 }
