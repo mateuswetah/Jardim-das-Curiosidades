@@ -94,6 +94,11 @@ h1, h2, h3, h4, h5, h6 {
     border-top: none;
     border-bottom: none;
 }
+@media screen and (min-width: 59.6875em) {
+    .main-navigation {
+        font-size: 1.4rem;
+    }
+}
 
 /* Widgets bellow the menu */
 .widget_media_image {
@@ -137,6 +142,6 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
     }
     .site-main {
-        margin-top: 16.6666%;
+        margin-top: 10%;
     }
 }
