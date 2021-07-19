@@ -141,7 +141,15 @@ h1, h2, h3, h4, h5, h6 {
         z-index: 2;
         position: relative;
     }
+    .post-thumbnail+.entry-header {
+        margin-top: 0px;
+    }
     .site-main {
         margin-top: 10%;
     }
+}
+
+/* Footer */
+.site-info {
+    text-align: center;
 }
