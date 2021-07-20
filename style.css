@@ -10,12 +10,12 @@ Version: 0.0.3
 
 /* Variables */
 :root {
-    --theme-background-color: #f2f2f2;
-    --theme-content-background-color: #fff;
-    --theme-light-green: #697128;
-    --theme-dark-green: #242807;
-    --theme-light-brown: #bfae7a;
-    --theme-dark-brown: #59342c;
+    --theme-background-color: var(--wp--preset--color--background-color, #f2f2f2);
+    --theme-content-background-color: var(--wp--preset--color--content-background-color, #ffffff);
+    --theme-light-green: var(--wp--preset--color--light-green, #697128);
+    --theme-dark-green: var(--wp--preset--color--dark-green, #242807);
+    --theme-light-brown: var(--wp--preset--color--light-brown, #bfae7a);
+    --theme-dark-brown: var(--wp--preset--color--dark-brown, #59342c);
 }
 
 /* Basic Laoyut */
@@ -26,7 +26,7 @@ body {
     background-attachment: fixed;
 }
 body, button, input, select, textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--wp--preset--font-family--poppins, 'Poppins');
 }
 body::before,
 .site-content {
