@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom-left-radius: 4px;
         box-shadow: 0 3px 9px -7px #000;
     }
-    .post-thumbnail+.entry-header {
+    .post-thumbnail+.entry-header h1 {
         padding: 5px;
         color: white;
     }
