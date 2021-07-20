@@ -154,7 +154,8 @@ h1, h2, h3, h4, h5, h6 {
         position: relative;
     }
     .post-thumbnail+.entry-header {
-        background: #acaf96;
+        background: #59342c;
+        background: var(--theme-dark-brown, #59342c);
         text-align: center;
         margin-left: 6%;
         margin-right: 6%;
@@ -164,7 +165,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     .post-thumbnail+.entry-header h1 {
         padding: 5px;
-        color: white;
+        color:#fff;
+        color: var(--theme-content-background-color, #fff);
     }
     .site-main {
         margin-top: 8%;
