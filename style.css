@@ -81,6 +81,9 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0 12%;
         text-align: center;
     }
+    .image-navigation {
+        padding: 12px 10%;
+    }
 }
 
 /* The menu inside the sidebar  */
@@ -162,4 +165,17 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 .site-info {
     text-align: center;
+}
+
+/* Elements inside group block should have less margin */
+.wp-block-group__inner-container>h1:first-child,
+.wp-block-group__inner-container>h2:first-child,
+.wp-block-group__inner-container>h3:first-child,
+.wp-block-group__inner-container>h4:first-child,
+.wp-block-group__inner-container>h5:first-child,
+.wp-block-group__inner-container>h6:first-child {
+    margin-top: 4px;
+}
+.wp-block-group__inner-container>p:last-child {
+    margin-bottom: 4px;
 }
