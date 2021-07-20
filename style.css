@@ -153,6 +153,10 @@ h1, h2, h3, h4, h5, h6 {
         z-index: 2;
         position: relative;
     }
+    .post-thumbnail img {
+        max-width: 680px;
+        width: 100%;
+    }
     .post-thumbnail+.entry-header {
         background: #59342c;
         background: var(--theme-dark-brown, #59342c);
