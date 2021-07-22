@@ -261,3 +261,12 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: -9.0909%;
     }
 }
+
+/* GetWid Carousels */
+.wp-block-getwid-post-carousel__slide a {
+    text-decoration: none;
+}
+
+.wp-block-getwid-post-carousel__slide .wp-block-getwid-template-post-title {
+    margin-top: 0.75em;
+}
