@@ -31,3 +31,20 @@ function jardim_das_curiosidades_add_editor_style() {
 	add_editor_style( 'style-editor.css' );
 }
 add_action( 'init', 'jardim_das_curiosidades_add_editor_style' );
+
+/**
+ * Register block styles.
+ *
+ */
+function jardim_das_curiosidades_block_styles() {
+
+	register_block_style(
+		'getwid/template-post-featured-image',
+		array(
+			'name'  => 'jardim-das-curiosidades-rotated',
+			'label' =>  __('Imagem rotacionada', 'jardim-das-curiosidades')
+		)
+	);
+
+}
+add_action('init', 'jardim_das_curiosidades_block_styles');
