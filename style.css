@@ -200,15 +200,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Elements inside group block should have less margin */
-.wp-block-group__inner-container>h1:first-child,
-.wp-block-group__inner-container>h2:first-child,
-.wp-block-group__inner-container>h3:first-child,
-.wp-block-group__inner-container>h4:first-child,
-.wp-block-group__inner-container>h5:first-child,
-.wp-block-group__inner-container>h6:first-child {
+.wp-block-group>h1:first-child,
+.wp-block-group>h2:first-child,
+.wp-block-group>h3:first-child,
+.wp-block-group>h4:first-child,
+.wp-block-group>h5:first-child,
+.wp-block-group>h6:first-child {
     margin-top: 4px;
 }
-.wp-block-group__inner-container>p:last-child {
+.wp-block-group>p:last-child {
     margin-bottom: 4px;
 }
 
