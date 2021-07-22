@@ -12,7 +12,7 @@ p {
     font-family: var(--wp--preset--font-family--poppins, 'Poppins');
 }
 
-.edit-post-visual-editor__content-area>div {
+body {
     background: linear-gradient(90deg,#f7f4ed calc((100% - 887px)/2), #ffffff calc((100% - 887px)/2), #ffffff calc(((100% - 887px)/2) + 887px), #f7f4ed calc(((100% - 887px)/2) + 887px));
 }
 
