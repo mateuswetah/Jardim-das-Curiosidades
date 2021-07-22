@@ -199,6 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Getwid tabs */
 .wp-block-getwid-tabs__nav-link a {
     border-bottom: none;
+    transition: color 0.3s ease;
 }
 .wp-block-getwid-tabs__nav-link {
     margin: 12px;
@@ -214,16 +215,26 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #59342c;
     border: 2px solid var(--theme-dark-brown, #59342c);
 }
+.wp-block-getwid-tabs__nav-link:hover a,
+.wp-block-getwid-tabs__nav-link:focus a {
+    color: #59342c;
+    color: var(--theme-dark-brown, #59342c);
+}
 .wp-block-getwid-tabs__nav-link.ui-tabs-active,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:hover,
-.wp-block-getwid-tabs__nav-link.ui-tabs-active:focus,
+.wp-block-getwid-tabs__nav-link.ui-tabs-active:focus {
+    color:#fff;
+    color: var(--theme-content-background-color, #fff);
+    background: #59342c;
+    background: var(--theme-dark-brown, #59342c);
+    border: 2px solid #59342c;
+    border: 2px solid var(--theme-dark-brown, #59342c);
+}
 .wp-block-getwid-tabs__nav-link.ui-tabs-active a,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:hover a,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:focus a  {
     color:#fff;
     color: var(--theme-content-background-color, #fff);
-    background: #59342c;
-    background: var(--theme-dark-brown, #59342c);
 }
 .wp-block-getwid-tabs .wp-block-getwid-tabs__tab-content {
     padding: 0;
