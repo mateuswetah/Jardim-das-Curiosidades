@@ -195,3 +195,53 @@ h1, h2, h3, h4, h5, h6 {
 .wp-block-group__inner-container>p:last-child {
     margin-bottom: 4px;
 }
+
+/* Getwid tabs */
+.wp-block-getwid-tabs__nav-link {
+    margin: 12px;
+    border-radius: 8px;
+    border: 2px solid #bfae7a;
+    border: 2px solid var(--theme-light-brown, #bfae7a);
+    transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+.wp-block-getwid-tabs__nav-link:hover,
+.wp-block-getwid-tabs__nav-link:focus {
+    background: #bfae7a;
+    background: var(--theme-light-brown, #bfae7a);
+    border: 2px solid #59342c;
+    border: 2px solid var(--theme-dark-brown, #59342c);
+}
+.wp-block-getwid-tabs__nav-link.ui-tabs-active,
+.wp-block-getwid-tabs__nav-link.ui-tabs-active:hover,
+.wp-block-getwid-tabs__nav-link.ui-tabs-active:focus {
+    color:#fff;
+    color: var(--theme-content-background-color, #fff);
+    background: #59342c;
+    background: var(--theme-dark-brown, #59342c);
+    
+}
+.wp-block-getwid-tabs .wp-block-getwid-tabs__tab-content {
+    padding: 0;
+}
+.wp-block-getwid-tabs {
+    width: 115.3846%;
+    max-width: 115.3846%;
+    margin-left: -7.6923%;
+    margin-right: -7.6923%;
+}
+@media screen and (min-width: 59.6875em) {
+    .wp-block-getwid-tabs {
+        width: 120%;
+        max-width: 120%;
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+}
+@media screen and (min-width: 68.75em) {
+    .wp-block-getwid-tabs {
+        width: 118.1818%;
+        max-width: 118.1818%;
+        margin-left: -9.0909%;
+        margin-right: -9.0909%;
+    }
+}
