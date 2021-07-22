@@ -52,6 +52,12 @@ function jardim_das_curiosidades_block_styles() {
 			'label' =>  __('Imagem rotacionada', 'jardim-das-curiosidades')
 		)
 	);
-
+	register_block_style(
+		'getwid/images-slider',
+		array(
+			'name'  => 'jardim-das-curiosidades-rotated',
+			'label' =>  __('Imagem rotacionada', 'jardim-das-curiosidades')
+		)
+	);
 }
 add_action('init', 'jardim_das_curiosidades_block_styles');

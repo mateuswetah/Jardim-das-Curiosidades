@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Separator Block */
 .wp-block-separator {
-    max-width: 300px;
+    max-width: 300px !important;
 }
 
 /* Elements inside group block should have less margin */
