@@ -194,6 +194,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* Separator Block */
+.wp-block-separator {
+    max-width: 300px;
+}
+
 /* Elements inside group block should have less margin */
 .wp-block-group__inner-container>h1:first-child,
 .wp-block-group__inner-container>h2:first-child,
