@@ -265,6 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 /* GetWid Carousels */
 .wp-block-getwid-post-carousel__slide a {
     text-decoration: none;
+    border-bottom: none;
 }
 
 .wp-block-getwid-post-carousel__slide .wp-block-getwid-template-post-title {
