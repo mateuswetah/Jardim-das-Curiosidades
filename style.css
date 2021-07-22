@@ -255,14 +255,16 @@ h1, h2, h3, h4, h5, h6 {
 .wp-block-getwid-tabs .wp-block-getwid-tabs__tab-content {
     padding: 0;
 }
-.wp-block-getwid-tabs {
+.wp-block-getwid-tabs,
+.wp-block-getwid-images-slider {
     width: 115.3846%;
     max-width: 115.3846%;
     margin-left: -7.6923%;
     margin-right: -7.6923%;
 }
 @media screen and (min-width: 59.6875em) {
-    .wp-block-getwid-tabs {
+    .wp-block-getwid-tabs,
+    .wp-block-getwid-images-slider {
         width: 120%;
         max-width: 120%;
         margin-left: -10%;
@@ -270,7 +272,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 @media screen and (min-width: 68.75em) {
-    .wp-block-getwid-tabs {
+    .wp-block-getwid-tabs,
+    .wp-block-getwid-images-slider {
         width: 118.1818%;
         max-width: 118.1818%;
         margin-left: -9.0909%;
