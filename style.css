@@ -286,3 +286,9 @@ h1, h2, h3, h4, h5, h6 {
 .wp-block-getwid-post-carousel__slide .wp-block-getwid-template-post-title {
     margin-top: 0.75em;
 }
+
+/* Rotated image style */
+.is-style-jardim-das-curiosidades-rotated img {
+    transform: rotate(-2deg);
+    box-shadow: 2px 4px 16px -12px #000;
+}

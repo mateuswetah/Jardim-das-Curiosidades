@@ -20,3 +20,9 @@ p {
     font-family: var(--wp--preset--font-family--poppins, 'Poppins');
     font-weight: 500;
 }
+
+/* Rotated image style */
+.is-style-jardim-das-curiosidades-rotated img {
+    transform: rotate(-2deg);
+    box-shadow: 2px 4px 16px -12px #000;
+}
