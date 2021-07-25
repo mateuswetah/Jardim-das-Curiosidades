@@ -18,7 +18,7 @@ body {
     background: linear-gradient(90deg,#f7f4ed calc((100% - 887px)/2), #ffffff calc((100% - 887px)/2), #ffffff calc(((100% - 887px)/2) + 887px), #f7f4ed calc(((100% - 887px)/2) + 887px));
 }
 @media screen and (min-width: 68.75em) {
-    .block-editor-block-list__layout {
+    .block-editor-block-list__layout.is-root-container {
         max-width: 840px;
         left: calc((100% - 840px)/2);
         right: calc((100% - 840px)/2);
