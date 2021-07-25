@@ -80,3 +80,8 @@ body {
     color:#fff;
     color: var(--theme-content-background-color, #fff);
 }
+
+/* Drop cap letter */
+.has-drop-cap:not(:focus)::first-letter {
+    font-weight: inherit;
+}
