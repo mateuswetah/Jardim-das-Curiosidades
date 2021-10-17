@@ -324,13 +324,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: -10%;
     margin-right: -10%;
 }
-.wp-block-getwid-accordion__header {
+.wp-block-getwid-accordion__header-wrapper {
     border-top: none;
     border-left: none;
-    border-radius: none;
+    border-top: none;
     
 }
-.wp-block-getwid-accordion__header.ui-accordion-header-active {
+.wp-block-getwid-accordion__header-wrapper.ui-accordion-header-active .wp-block-getwid-accordion__header {
     color: var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-accordion__content-wrapper {
