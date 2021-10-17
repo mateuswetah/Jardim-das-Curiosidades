@@ -16,7 +16,7 @@ Version: 0.0.3
     --theme-dark-green: var(--wp--preset--color--dark-green, #475002);
     --theme-light-brown: var(--wp--preset--color--light-brown, #bfae7a);
     --theme-dark-brown: var(--wp--preset--color--dark-brown, #892713);
-    --wp--preset--font-family--poppins: 'Comic Neue', cursive;
+    --wp--preset--font-family--poppins: 'Comic Neue', 'Poppins', sans-serif;
 }
 
 /* Basic Laoyut */
