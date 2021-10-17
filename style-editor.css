@@ -15,7 +15,7 @@ p {
 /* The body here will be converted to the .editor-styles-wrapper */
 body {
     margin: auto 0px;
-    background: linear-gradient(90deg,#d2e6be calc((100% - 887px)/2), #f2b94b calc((100% - 887px)/2), #f2b94b calc(((100% - 887px)/2) + 887px), #d2e6be calc(((100% - 887px)/2) + 887px));
+    background: linear-gradient(90deg,#e5c978 calc((100% - 887px)/2), #ffffff calc((100% - 887px)/2), #ffffff calc(((100% - 887px)/2) + 887px), #e5c978 calc(((100% - 887px)/2) + 887px));
 }
 @media screen and (min-width: 68.75em) {
     .block-editor-block-list__layout.is-root-container {
