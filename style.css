@@ -5,7 +5,7 @@ Description: Tema filho do TwentyFifteen para o Projeto Jardim das Curiosidades.
 Author: wetah
 Author URI: https://mateuswetah.com.br
 Template: twentyfifteen
-Version: 0.0.6
+Version: 0.0.7
 */
 
 /* Variables */
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 4px 76px 7px 113px;
     }
     #sidebar:hover:after {
-        transform: skewY(8deg);
+        transform: skewY(12deg);
     }
     .site-header {
         margin: 18% 0 11% 0;
@@ -325,12 +325,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: -10%;
 }
 .wp-block-getwid-accordion__header-wrapper {
-    border-top: none;
-    border-left: none;
-    border-top: none;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
     
 }
-.wp-block-getwid-accordion__header-wrapper.ui-accordion-header-active .wp-block-getwid-accordion__header {
+.wp-block-getwid-accordion__header-wrapper.ui-accordion-header-active .wp-block-getwid-accordion__header a {
     color: var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-accordion__content-wrapper {
