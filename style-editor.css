@@ -23,6 +23,11 @@ body {
         left: calc((100% - 840px)/2);
         right: calc((100% - 840px)/2);
     }
+    .wp-block-getwid-accordion.alignfull {
+        width: 120%;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 /* Page title style */
