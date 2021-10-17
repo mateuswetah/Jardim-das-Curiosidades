@@ -318,6 +318,26 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 7px 113px 4px 76px;
 }
 
+/* Acordeão */
+.wp-block-getwid-accordion.alignfull {
+    width: 120%;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.wp-block-getwid-accordion__header {
+    border-top: none;
+    border-left: none;
+    border-radius: none;
+    
+}
+.wp-block-getwid-accordion__header.ui-accordion-header-active {
+    color: var(--theme-dark-brown, #892713);
+}
+.wp-block-getwid-accordion__content-wrapper {
+    background: #fcfdef;
+}
+
+/* Hides footer */
 #colophon.site-footer {
     display: none;
 }
