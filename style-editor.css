@@ -48,14 +48,14 @@ body {
 .wp-block-getwid-tabs__nav-link {
     margin: 12px;
     border-radius: 8px;
-    border: 2px solid #bfae7a;
-    border: 2px solid var(--theme-light-brown, #bfae7a);
+    border: 2px solid #dac893;
+    border: 2px solid var(--theme-light-brown, #dac893);
     transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
 }
 .wp-block-getwid-tabs__nav-link:hover,
 .wp-block-getwid-tabs__nav-link:focus {
-    background: #bfae7a;
-    background: var(--theme-light-brown, #bfae7a);
+    background: #dac893;
+    background: var(--theme-light-brown, #dac893);
     border: 2px solid #892713;
     border: 2px solid var(--theme-dark-brown, #892713);
 }
