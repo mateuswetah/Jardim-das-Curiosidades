@@ -5,7 +5,7 @@ if (! defined('WP_DEBUG')) {
 }
 
 /** Child Theme version */
-const JARDIM_DAS_CURIOSIDADES_VERSION = '0.0.5';
+const JARDIM_DAS_CURIOSIDADES_VERSION = '0.0.6';
 
 /**
  * Load the parent style.css file
