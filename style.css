@@ -12,21 +12,22 @@ Version: 0.0.3
 :root {
     --theme-background-color: var(--wp--preset--color--background-color, #f2f2f2);
     --theme-content-background-color: var(--wp--preset--color--content-background-color, #ffffff);
-    --theme-light-green: var(--wp--preset--color--light-green, #697128);
-    --theme-dark-green: var(--wp--preset--color--dark-green, #242807);
+    --theme-light-green: var(--wp--preset--color--light-green, #778405);
+    --theme-dark-green: var(--wp--preset--color--dark-green, #475002);
     --theme-light-brown: var(--wp--preset--color--light-brown, #bfae7a);
-    --theme-dark-brown: var(--wp--preset--color--dark-brown, #59342c);
+    --theme-dark-brown: var(--wp--preset--color--dark-brown, #892713);
+    --wp--preset--font-family--poppins: 'Comic Neue', cursive;
 }
 
 /* Basic Laoyut */
 body {
     background-color: #f2f2f2;
     background-color: var(--theme-background-color, #f2f2f2);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23d2c6a1' fill-opacity='0.1' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E"), linear-gradient(190deg, #ffffff, #eee9d9);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23d2c6a1' fill-opacity='0.1' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E"), linear-gradient(190deg, #e1b731, #d2e6be);
     background-attachment: fixed;
 }
 body, button, input, select, textarea {
-    font-family: var(--wp--preset--font-family--poppins, 'Poppins');
+    font-family: var(--wp--preset--font-family--poppins, 'Comic Neue');
 }
 body::before,
 .site-content {
@@ -50,9 +51,9 @@ body::before,
     }
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
-    color: #242807;
-    color: var(--theme-dark-green, #242807);
+    font-weight: 700;
+    color: #475002;
+    color: var(--theme-dark-green, #475002);
 }
 
 /* Sidebar navigation menu */
@@ -72,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
     right: 0%;
     z-index: -1;
     transform: skewY(0deg);
-    box-shadow: 0 0 20px -18px #242807;
-    box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
+    box-shadow: 0 0 20px -18px #475002;
+    box-shadow: 0 0 20px -18px var(--theme-dark-green, #475002);
     transition: transform 0.2s linear;
 }
 
@@ -104,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The menu inside the sidebar  */
 .main-navigation {
-    font-weight: 500;
+    font-weight: 400;
     padding: 0 12px;
 }
 .main-navigation ul,
@@ -139,8 +140,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Pages and Posts overall title and header */
 @media screen and (min-width: 38.75em) {
     .hentry, .page-header, .page-content {
-        box-shadow: 0 0 20px -18px #242807;
-        box-shadow: 0 0 20px -18px var(--theme-dark-green, #242807);
+        box-shadow: 0 0 20px -18px #475002;
+        box-shadow: 0 0 20px -18px var(--theme-dark-green, #475002);
     }
     .secondary {
         margin: 0;
@@ -160,8 +161,8 @@ h1, h2, h3, h4, h5, h6 {
         left: 0;
         right: 0;
         transform: skewY(-3deg);
-        box-shadow:0 -12px 22px -28px #242807;
-        box-shadow: 0 -12px 22px -28px var(--theme-dark-green, #242807)
+        box-shadow:0 -12px 22px -28px #475002;
+        box-shadow: 0 -12px 22px -28px var(--theme-dark-green, #475002)
     }
     .entry-header {
         margin-top: -16.6666%;
@@ -174,8 +175,8 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
     .post-thumbnail+.entry-header {
-        background: #59342c;
-        background: var(--theme-dark-brown, #59342c);
+        background: #892713;
+        background: var(--theme-dark-brown, #892713);
         text-align: center;
         margin-left: 6%;
         margin-right: 6%;
@@ -204,6 +205,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Separator Block */
 .wp-block-separator {
     max-width: 300px !important;
+}
+
+/* Button Block */
+.wp-block-button__link {
+    border-bottom: 22px 35px 26px 32px;
 }
 
 /* Elements inside group block should have less margin */
@@ -235,23 +241,23 @@ h1, h2, h3, h4, h5, h6 {
 .wp-block-getwid-tabs__nav-link:focus {
     background: #bfae7a;
     background: var(--theme-light-brown, #bfae7a);
-    border: 2px solid #59342c;
-    border: 2px solid var(--theme-dark-brown, #59342c);
+    border: 2px solid #892713;
+    border: 2px solid var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-tabs__nav-link:hover a,
 .wp-block-getwid-tabs__nav-link:focus a {
-    color: #59342c;
-    color: var(--theme-dark-brown, #59342c);
+    color: #892713;
+    color: var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-tabs__nav-link.ui-tabs-active,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:hover,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:focus {
     color:#fff;
     color: var(--theme-content-background-color, #fff);
-    background: #59342c;
-    background: var(--theme-dark-brown, #59342c);
-    border: 2px solid #59342c;
-    border: 2px solid var(--theme-dark-brown, #59342c);
+    background: #892713;
+    background: var(--theme-dark-brown, #892713);
+    border: 2px solid #892713;
+    border: 2px solid var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-tabs__nav-link.ui-tabs-active a,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:hover a,

@@ -5,11 +5,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 500;
-    font-family: var(--wp--preset--font-family--poppins, 'Poppins');
+    font-weight: 700;
+    font-family: var(--wp--preset--font-family--poppins, 'Comic Neue');
 }
 p {
-    font-family: var(--wp--preset--font-family--poppins, 'Poppins');
+    font-family: var(--wp--preset--font-family--poppins, 'Comic Neue');
 }
 
 /* The body here will be converted to the .editor-styles-wrapper */
@@ -30,8 +30,8 @@ body {
     font-size: 26px;
     font-size: 2.6rem;
     line-height: 1.1538;
-    font-family: var(--wp--preset--font-family--poppins, 'Poppins');
-    font-weight: 500;
+    font-family: var(--wp--preset--font-family--poppins, 'Comic Neue');
+    font-weight: 700;
 }
 
 /* Rotated image style */
@@ -56,23 +56,23 @@ body {
 .wp-block-getwid-tabs__nav-link:focus {
     background: #bfae7a;
     background: var(--theme-light-brown, #bfae7a);
-    border: 2px solid #59342c;
-    border: 2px solid var(--theme-dark-brown, #59342c);
+    border: 2px solid #892713;
+    border: 2px solid var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-tabs__nav-link:hover a,
 .wp-block-getwid-tabs__nav-link:focus a {
-    color: #59342c;
-    color: var(--theme-dark-brown, #59342c);
+    color: #892713;
+    color: var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-tabs__nav-link.ui-tabs-active,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:hover,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:focus {
     color:#fff;
     color: var(--theme-content-background-color, #fff);
-    background: #59342c;
-    background: var(--theme-dark-brown, #59342c);
-    border: 2px solid #59342c;
-    border: 2px solid var(--theme-dark-brown, #59342c);
+    background: #892713;
+    background: var(--theme-dark-brown, #892713);
+    border: 2px solid #892713;
+    border: 2px solid var(--theme-dark-brown, #892713);
 }
 .wp-block-getwid-tabs__nav-link.ui-tabs-active a,
 .wp-block-getwid-tabs__nav-link.ui-tabs-active:hover a,
