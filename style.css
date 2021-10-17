@@ -63,8 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 #sidebar:after {
     content: "";
     position: absolute;
-    background-color:#fff;
-    background-color: var(--theme-content-background-color, #fff);
+    background-color: #f6ffdb;
     height: 100%;
     width: 100%;
     top: 0%;
@@ -73,8 +72,8 @@ h1, h2, h3, h4, h5, h6 {
     right: 0%;
     z-index: -1;
     transform: skewY(0deg);
-    box-shadow: 0 0 20px -18px #475002;
-    box-shadow: 0 0 20px -18px var(--theme-dark-green, #475002);
+    box-shadow: 0 5px 28px -20px #475002;
+    box-shadow: 0 5px 28px -20px var(--theme-dark-green, #475002);
     transition: transform 0.2s linear;
 }
 
@@ -92,9 +91,10 @@ h1, h2, h3, h4, h5, h6 {
         left: 15%;
         right: 15%;
         transform: skewY(7deg);
+        border-radius: 4px 76px 7px 113px;
     }
     .site-header {
-        margin: 16% 0 12% 0;
+        margin: 18% 0 11% 0;
         padding: 0 12%;
         text-align: center;
     }
